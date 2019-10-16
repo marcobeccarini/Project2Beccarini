@@ -11,8 +11,8 @@ public class NormScale : MonoBehaviour
 
     void OnCollisionEnter(Collision col)//When Object Collides
     {
-       
             Scaler.transform.localScale = NormScaler;
+            Scaler.transform.position = new Vector3(1f, 0f, 2.30f);
 
     }
 

@@ -13,7 +13,7 @@ public class SmallScale : MonoBehaviour
     {
        
         Scaler.transform.localScale = shrinkScale;
-      
+        Scaler.transform.position = new Vector3(2.87f, 0f, 1.48f);
     }
    
 }

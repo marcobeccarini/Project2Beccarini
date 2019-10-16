@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BigScale : MonoBehaviour
+public class BigScale2 : MonoBehaviour
 {
     public GameObject Scaler;//The Broken Object
 
@@ -13,7 +13,7 @@ public class BigScale : MonoBehaviour
     {
 
         Scaler.transform.localScale = increaseScale;
-        Scaler.transform.position = new Vector3(-12.41f, 0f, -4.99f);
+        Scaler.transform.position = new Vector3(-26.9f, 0f, 3.8f);
     }
 
 }

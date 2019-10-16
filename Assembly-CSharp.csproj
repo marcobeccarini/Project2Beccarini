@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Biccheri\Break.cs" />
     <Compile Include="Assets\Biccheri\Break2.cs" />
+    <Compile Include="Assets\BigScale2.cs" />
     <Compile Include="Assets\DafaultScene\ufo.cs" />
     <Compile Include="Assets\globe\bounce.cs" />
     <Compile Include="Assets\NormScale.cs" />
