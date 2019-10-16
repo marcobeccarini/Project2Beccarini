@@ -67,6 +67,9 @@
     <Compile Include="Assets\Biccheri\Break2.cs" />
     <Compile Include="Assets\DafaultScene\ufo.cs" />
     <Compile Include="Assets\globe\bounce.cs" />
+    <Compile Include="Assets\NormScale.cs" />
+    <Compile Include="Assets\Scaler\BigScale.cs" />
+    <Compile Include="Assets\Scaler\SmallScale.cs" />
     <Compile Include="Assets\Spider\SpiderAnim.cs" />
     <None Include="Assets\VRTK\Dependencies\Zinnia.Unity\Dependencies\FodyWeavers.xml" />
     <Reference Include="Unity.Timeline.Editor">
