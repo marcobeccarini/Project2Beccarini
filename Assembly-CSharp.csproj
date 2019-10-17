@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scaler\BigScale.cs" />
     <Compile Include="Assets\Scaler\SmallScale.cs" />
     <Compile Include="Assets\Spider\SpiderAnim.cs" />
+    <Compile Include="Assets\SpiderDeath.cs" />
     <None Include="Assets\VRTK\Dependencies\Zinnia.Unity\Dependencies\FodyWeavers.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/marco/OneDrive/Desktop/Unity/Project2Beccarini/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
