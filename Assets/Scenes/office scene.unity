@@ -11820,7 +11820,6 @@ GameObject:
   - component: {fileID: 1237704998}
   - component: {fileID: 1237705000}
   - component: {fileID: 1237704996}
-  - component: {fileID: 1237705002}
   m_Layer: 0
   m_Name: Spider
   m_TagString: Untagged
@@ -11935,22 +11934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1237705002
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237704995}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1 &1237705003
 GameObject:
   m_ObjectHideFlags: 0
@@ -27775,7 +27758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7915416951132220427}
   m_LocalRotation: {x: -0, y: -0.52093023, z: -0, w: 0.8535993}
-  m_LocalPosition: {x: -3.479, y: -1.666, z: 1.169}
+  m_LocalPosition: {x: -3.4568, y: -1.6571, z: 1.2121}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 2022043924946403826}
@@ -43946,7 +43929,6 @@ GameObject:
   - component: {fileID: 1588786030818047577}
   - component: {fileID: 8265383419326889219}
   - component: {fileID: 5601440233632412155}
-  - component: {fileID: 7915416951132220428}
   m_Layer: 0
   m_Name: Spider.Primary_Grab.Secondary_Swap
   m_TagString: Untagged
@@ -43954,20 +43936,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7915416951132220428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7915416951132220427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0db7f8b7678055488c38a3682b7c1ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpiderAlive: {fileID: 1237704995}
-  SpiderDead: {fileID: 423184680}
 --- !u!4 &7921208619286045768
 Transform:
   m_ObjectHideFlags: 0
@@ -44989,10 +44957,10 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &8268692042682141369
 GameObject:
